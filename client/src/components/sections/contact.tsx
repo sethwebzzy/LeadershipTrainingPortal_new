@@ -72,7 +72,7 @@ export default function Contact() {
                     <p className="text-college-gray">Interactive Map - Kitengela Location</p>
                     <p className="text-sm text-college-gray mt-2">
                       <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8944144719!2d36.9469!3d-1.2921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMcKwMTcnMzEuNiJTIDM2wrA1Nic0OC44IkU!5e0!3m2!1sen!2ske!4v1640995200000!5m2!1sen!2ske"
+                        src="https://www.google.com/maps?q=Kawa%20Center%20Kitengela&output=embed"
                         width="100%"
                         height="256"
                         style={{ border: 0 }}

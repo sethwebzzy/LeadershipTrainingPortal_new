@@ -16,9 +16,11 @@ const courses = [
   { value: "hiv-counselling", label: "HIV (VCT) Counselling and Testing" },
   { value: "adherence-counselling", label: "Adherence Counselling Certificate" },
   { value: "diploma-counselling", label: "Diploma in Counselling" },
+  { value: "certificate-counselling", label: "Certificate in Counselling" },
   { value: "primary-guidance", label: "Primary Guidance" },
   { value: "sign-language", label: "Kenya Sign Language" },
   { value: "ecde", label: "ECDE" },
+  { value: "computer-packages", label: "Computer Packages (Ksh. 3,500)" },
 ];
 
 export default function RegistrationForm() {

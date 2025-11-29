@@ -27,50 +27,50 @@ const mockServices: Service[] = [
   {
     id: 1,
     name: "Psychological Counselling",
-    description: "Professional one-on-one counselling sessions for mental health support",
+    description: "Professional one-on-one and group psychological counselling for individuals, couples and families.",
     price: "KES 2,500",
     duration: "60 minutes",
     category: "Mental Health"
   },
   {
     id: 2,
-    name: "Group Therapy",
-    description: "Therapeutic group sessions for peer support and healing",
-    price: "KES 1,500",
-    duration: "90 minutes",
-    category: "Mental Health"
+    name: "Family & Marriage Therapy",
+    description: "Specialized therapy services for couples and families to strengthen relationships.",
+    price: "KES 3,500",
+    duration: "75 minutes",
+    category: "Family & Marriage"
   },
   {
     id: 3,
-    name: "HIV Testing",
-    description: "Confidential HIV testing and counselling services",
+    name: "HIV Counselling & Testing",
+    description: "Professional HIV counselling and testing services with confidential support.",
     price: "KES 500",
     duration: "30 minutes",
-    category: "Health Testing"
+    category: "HIV / VCT"
   },
   {
     id: 4,
-    name: "Nutrition Consultation",
-    description: "Professional dietary planning and nutrition advice",
-    price: "KES 3,000",
-    duration: "45 minutes",
-    category: "Health"
+    name: "Adolescent Play Therapy",
+    description: "Specialized play therapy services designed for adolescents and young people.",
+    price: "KES 2,000",
+    duration: "60 minutes",
+    category: "Adolescent Therapy"
   },
   {
     id: 5,
-    name: "Family Counselling",
-    description: "Counselling services for families and couples",
-    price: "KES 4,000",
-    duration: "75 minutes",
-    category: "Mental Health"
+    name: "Grief & Trauma Counselling",
+    description: "Professional support for individuals dealing with grief, trauma, and loss.",
+    price: "KES 2,500",
+    duration: "60 minutes",
+    category: "Trauma & Grief"
   },
   {
     id: 6,
-    name: "Health Screening",
-    description: "Comprehensive health check-up and screening services",
-    price: "KES 1,800",
-    duration: "30 minutes",
-    category: "Health Testing"
+    name: "Student Counselling",
+    description: "Academic and personal counselling services for students at all levels.",
+    price: "KES 1,500",
+    duration: "45 minutes",
+    category: "Student Support"
   }
 ];
 

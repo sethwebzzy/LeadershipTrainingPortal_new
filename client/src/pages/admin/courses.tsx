@@ -27,51 +27,67 @@ type Course = z.infer<typeof courseSchema> & { id: number };
 const mockCourses: Course[] = [
   {
     id: 1,
-    name: "HIV Testing and Counselling",
-    description: "Comprehensive training in HIV counselling techniques and testing procedures",
-    duration: "6 months",
-    fee: "KES 25,000",
+    name: "HIV (VCT) Counselling and Testing",
+    description: "Short course in HIV counselling and testing following national VCT guidelines.",
+    duration: "3 months",
+    fee: "KES 15,000",
     category: "Health"
   },
   {
     id: 2,
-    name: "Early Childhood Development Education (ECDE)",
-    description: "Professional development for early childhood educators",
-    duration: "8 months",
-    fee: "KES 30,000",
-    category: "Education"
+    name: "Adherence Counselling Certificate",
+    description: "Specialized training in adherence counselling techniques for chronic disease management.",
+    duration: "3 months",
+    fee: "KES 18,000",
+    category: "Health"
   },
   {
     id: 3,
-    name: "Kenya Sign Language",
-    description: "Complete sign language communication training",
-    duration: "4 months",
-    fee: "KES 18,000",
-    category: "Communication"
+    name: "Diploma in Counselling",
+    description: "Comprehensive diploma programme in professional counselling.",
+    duration: "18 months",
+    fee: "KES 65,000",
+    category: "Counselling"
   },
   {
     id: 4,
-    name: "Psychological Counselling",
-    description: "Professional counselling and therapy techniques",
+    name: "Certificate in Counselling",
+    description: "Foundational certificate course in professional counselling.",
     duration: "12 months",
     fee: "KES 45,000",
-    category: "Psychology"
+    category: "Counselling"
   },
   {
     id: 5,
-    name: "Community Health",
-    description: "Community health promotion and disease prevention",
+    name: "Primary Guidance",
+    description: "Guidance and counselling skills for teachers working in primary schools.",
     duration: "6 months",
-    fee: "KES 28,000",
-    category: "Health"
+    fee: "KES 25,000",
+    category: "Education"
   },
   {
     id: 6,
-    name: "Nutrition and Dietetics",
-    description: "Professional nutrition and dietary planning",
-    duration: "10 months",
-    fee: "KES 35,000",
-    category: "Health"
+    name: "Kenya Sign Language",
+    description: "Professional training in Kenya Sign Language for inclusive communication and accessibility.",
+    duration: "6 months",
+    fee: "KES 30,000",
+    category: "Communication"
+  },
+  {
+    id: 7,
+    name: "ECDE",
+    description: "Early Childhood Development and Education for aspiring early childhood educators.",
+    duration: "1–2 years",
+    fee: "KES 45,000 per year",
+    category: "Education"
+  },
+  {
+    id: 8,
+    name: "Computer Packages",
+    description: "Comprehensive computer packages training for students and professionals.",
+    duration: "3 months",
+    fee: "KES 3,500",
+    category: "ICT"
   }
 ];
 

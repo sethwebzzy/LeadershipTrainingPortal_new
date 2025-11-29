@@ -9,7 +9,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-college-dark text-white py-12">
+    <footer className="bg-[#00ff5e] text-black py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
@@ -58,7 +58,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="border-t border-gray-700 mt-8 pt-8 text-center">
-          <p className="text-gray-300">&copy; 2024 Leadership JOYCEP Training College. All rights reserved.</p>
+          <p className="text-gray-300">Leadership JOYCEP Training College – Empowering communities through professional counselling, education and training. Call 0727 708 240 / 0732 522 089 / 0117 403 514 • Email: leadershipjoycepcentre@gmail.com</p>
         </div>
       </div>
     </footer>
