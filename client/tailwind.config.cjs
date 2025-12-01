@@ -7,7 +7,12 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
+      colors: 
+      {college: {
+        green: "#19b86e",
+        dark: "#0a2a2a",
+        gray: "#606d75",
+      },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
